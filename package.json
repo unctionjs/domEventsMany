@@ -1,7 +1,7 @@
 {
-  "name": "@unction/template",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@unction/domeventsmany",
+  "version": "1.0.1",
+  "description": "Takes many events or * and returns an observable of those events",
   "keywords": [
     "unction",
     "functional"
@@ -45,6 +45,10 @@
     "tap": "10.3.3"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/domevents": "^1.0.1",
+    "@unction/mapvalues": "^2.0.3",
+    "@unction/mergeright": "^1.0.3",
+    "@unction/reducevalues": "^1.0.8",
+    "xstream": "10.8.0"
   }
 }

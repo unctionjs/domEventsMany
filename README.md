@@ -1,17 +1,35 @@
-# @unction/tempLate
+# @unction/domEventsMany
+
 
 ![Tests][BADGE_TRAVIS]
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> mixed -> mixed
+> domEventsManyConfigurationType -> (string | Array<DOMEventNameType>) -> DOMEventStreamType
 
-An example function.
+Takes many events or * and returns an observable of those events
 
 ``` javascript
-tempLate(1) // 1
+domEventsMany({})(["click", "input"])(DOM)
 ```
 
-[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+returns
+
+``` javascript
+--click--input--input--click--input
+```
+
+``` javascript
+domEventsMany({})("*")(DOM)
+```
+
+returns
+
+``` javascript
+--click--input--hover--change--click-->
+```
+
+[BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/domEventsMany.svg?maxAge=2592000&style=flat-square
+
 [BADGE_STABILITY]: https://img.shields.io/badge/stability-strong-green.svg?maxAge=2592000&style=flat-square
-[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/tempLate.svg?maxAge=2592000&style=flat-square
+[BADGE_DEPENDENCY]: https://img.shields.io/david/unctionjs/domEventsMany.svg?maxAge=2592000&style=flat-square
