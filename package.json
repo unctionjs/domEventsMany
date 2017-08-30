@@ -53,7 +53,7 @@
   "dependencies": {
     "@unction/domevents": "2.0.0",
     "@unction/mapvalues": "3.0.0",
-    "@unction/mergeright": "2.0.1",
+    "@unction/mergeright": "3.0.0",
     "@unction/reducevalues": "2.2.0",
     "xstream": "10.8.0"
   },
