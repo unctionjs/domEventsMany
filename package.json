@@ -50,10 +50,10 @@
     "tap": "10.3.4"
   },
   "dependencies": {
-    "@unction/domevents": "2.4.0",
-    "@unction/mapvalues": "3.6.0",
-    "@unction/mergeright": "3.5.0",
-    "@unction/reducevalues": "2.7.0",
+    "@unction/domevents": "2.5.0",
+    "@unction/mapvalues": "3.7.0",
+    "@unction/mergeright": "3.6.0",
+    "@unction/reducevalues": "2.8.0",
     "xstream": "10.8.0"
   },
   "nyc": {
