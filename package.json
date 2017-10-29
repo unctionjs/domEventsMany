@@ -51,9 +51,9 @@
   },
   "dependencies": {
     "@unction/domevents": "2.5.0",
-    "@unction/mapvalues": "3.24.0",
-    "@unction/mergeright": "3.23.0",
-    "@unction/reducevalues": "2.25.0",
+    "@unction/mapvalues": "3.25.0",
+    "@unction/mergeright": "3.24.0",
+    "@unction/reducevalues": "2.26.0",
     "xstream": "10.8.0"
   },
   "nyc": {
