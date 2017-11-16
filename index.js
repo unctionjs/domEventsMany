@@ -4,16 +4,17 @@ import mapValues from "@unction/mapvalues"
 import domEvents from "@unction/domevents"
 import xstream from "xstream"
 
-export default function domEventsMany (options: DOMEventsConfigurationType): Function {
-  const domEventsWithOptions = domEvents(options)
-  return function domEventsManyOptions (names: Array<DOMEventNameType>): Function {
+export default function domEventsMany (options: DOMEventsConfigurationType): UnaryFunctionType {
+  const domEventsWithOptions: UnaryFunctionType = domEvents(options)
+
+  return function domEventsManyOptions (names: Array<DOMEventNameType>): UnaryFunctionType {
     return function domEventsManyOptionsNames (dom: DOMStreamType): DOMEventStreamType {
       return reduceValues(
         mergeRight
       )(
         xstream.never()
       )(
-        mapValues((name: DOMEventNameType): DOMEventStreamType => domEventsWithOptions(name)(dom))(eventNames)
+        mapValues((name: DOMEventNameType): DOMEventStreamType => domEventsWithOptions(name)(dom))(names)
       )
     }
   }
