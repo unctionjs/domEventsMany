@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "@unction/domevents": "3.0.0",
-    "@unction/mapvalues": "7.0.0",
+    "@unction/mapvalues": "8.0.0",
     "@unction/mergeright": "5.0.0",
     "@unction/reducevalues": "6.0.0",
     "most": "1.7.2"
