@@ -52,10 +52,10 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/domevents": "3.0.1",
-    "@unction/mapvalues": "9.0.0",
-    "@unction/mergeright": "6.0.0",
-    "@unction/reducevalues": "7.0.0",
+    "@unction/domevents": "4.0.0",
+    "@unction/mapvalues": "10.1.0",
+    "@unction/mergeright": "7.1.0",
+    "@unction/reducevalues": "8.1.0",
     "most": "1.7.2"
   },
   "nyc": {
