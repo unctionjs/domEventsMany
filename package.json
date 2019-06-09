@@ -52,10 +52,10 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/domevents": "4.0.1",
-    "@unction/mapvalues": "10.2.0",
-    "@unction/mergeright": "7.2.0",
-    "@unction/reducevalues": "8.2.0",
+    "@unction/domevents": "4.0.2",
+    "@unction/mapvalues": "10.3.0",
+    "@unction/mergeright": "7.3.0",
+    "@unction/reducevalues": "8.3.0",
     "core-js": "3.0.1",
     "most": "1.7.2"
   },
