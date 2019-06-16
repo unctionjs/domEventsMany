@@ -1,6 +1,6 @@
 {
   "name": "@unction/domeventsmany",
-  "version": "12.5.0",
+  "version": "12.5.1",
   "description": "Takes many event names and returns an observable of those events",
   "keywords": [
     "unction",
