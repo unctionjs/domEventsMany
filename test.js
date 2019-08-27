@@ -4,7 +4,7 @@ import {empty} from "most";
 import {of} from "most";
 import streamSatisfies from "@unction/streamsatisfies";
 
-import domEventsMany from "./index";
+import domEventsMany from "./";
 
 const dom = {
   events: (type) => {
