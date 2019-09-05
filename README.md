@@ -14,8 +14,8 @@ domEventsMany({})(["click", "input"])(DOM)
 
 returns
 
-``` javascript
---click--input--input--click--input
+```
+--click--input--input--click--input--|
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/domEventsMany.svg?maxAge=2592000&style=flat-square
