@@ -3,7 +3,7 @@ import { empty } from "most";
 import {of} from "most";
 import streamSatisfies from "@unction/streamsatisfies";
 
-import domEventsMany from "./index.ts";
+import domEventsMany from "./index";
 
 const dom = {
   events: (type) => {
