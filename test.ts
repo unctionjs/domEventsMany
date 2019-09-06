@@ -1,10 +1,9 @@
 /* eslint-disable flowtype/require-variable-type */
-import {test} from "tap";
-import {empty} from "most";
+import { empty } from "most";
 import {of} from "most";
 import streamSatisfies from "@unction/streamsatisfies";
 
-import domEventsMany from "./";
+import domEventsMany from "./index.ts";
 
 const dom = {
   events: (type) => {
@@ -22,21 +21,21 @@ const dom = {
   },
 };
 
-test(({equal, same, doesNotThrow, end}) => {
+test(done => {
   streamSatisfies(
     [
       {type: "click"},
       {type: "input"},
     ]
   )(
-    (given) => (expected) => same(given, expected)
+    (given) => (expected) => expect(given).toEqual(expected)
   )(
     doesNotThrow
   )(
     ({length}) =>
       (position) => {
-        equal(length, position);
-        end();
+        expect(length).toBe(position);
+        done();
       }
   )(
     domEventsMany({})(["click", "input"])(dom)
