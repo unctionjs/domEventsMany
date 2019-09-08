@@ -54,10 +54,10 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/domevents": "4.1.1",
-    "@unction/mapvalues": "10.6.0",
-    "@unction/mergeright": "7.7.0",
-    "@unction/reducevalues": "8.7.0",
+    "@unction/domevents": "4.1.3",
+    "@unction/mapvalues": "10.8.0",
+    "@unction/mergeright": "7.8.0",
+    "@unction/reducevalues": "8.8.0",
     "most": "1.7.2"
   },
   "files": [
