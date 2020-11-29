@@ -62,9 +62,9 @@
   },
   "dependencies": {
     "@unction/domevents": "^4.1.5",
-    "@unction/mapvalues": "^10.11.0",
-    "@unction/mergeright": "^7.11.0",
-    "@unction/reducevalues": "^8.11.0",
+    "@unction/mapvalues": "^10.12.0",
+    "@unction/mergeright": "^7.12.0",
+    "@unction/reducevalues": "^8.12.0",
     "most": "1.7.2"
   }
 }
